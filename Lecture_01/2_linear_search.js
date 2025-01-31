@@ -9,3 +9,17 @@
 
 
 // Решение
+let numbers = [2, 6, 7, -1, 0, 7];
+let find = 10;
+let isFind = false;
+
+for (let i = 0; i < numbers.length; i++) {
+    if (find === numbers[i]){
+        console.log("Найдено");
+        isFind = true;
+    }
+}
+
+if (isFind !== true){
+    console.log("Не найдено")
+}
